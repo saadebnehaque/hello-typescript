@@ -13,3 +13,6 @@ const newNumbers: number[] = [ 6, 7, 8];
 const closeFriends: string[] = ['Alice', 'Bob', 'Charlie'];
 
 const allNumbers: number[] = [...numbers3, ...newNumbers];
+
+// console.log(Object.keys(deviceInfo));
+export{}

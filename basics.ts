@@ -10,17 +10,19 @@
 
 const brand: string = 'Apple';
 
-if(brand === 'samsung'){
+if (brand === 'samsung') {
     const isExpensive: boolean = true;
 }
 
 // inference : implicit
-for(let i:number = 0; i < 10; i++){
+for (let i: number = 0; i < 10; i++) {
 
 }
 
 const letters: string[] = ['a', 'b', 'c', 'd'];
 
-for(const letter of letters){
-    console.log(letter.toUpperCase());
+for (const letter of letters) {
+    console.log(letter.toUpperCase().toLowerCase().toUpperCase());
 }
+
+export { }

@@ -12,4 +12,5 @@ const { age, isAdmin: adminStatus } = user;
 
 const userInfo = ['Rohomot Ali', 25];
 
-const [ , userAge] = ['Rohomot Ali', 25, true]
+const [ , ,isAdmin] = ['Rohomot Ali', 25, true]
+export{}

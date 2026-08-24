@@ -27,4 +27,5 @@ const myVariable: any = 'Hello';
 // unknown
 
 // never
-
+console.log(typeof NaN);
+export {};

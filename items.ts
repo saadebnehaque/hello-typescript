@@ -5,3 +5,4 @@ const charge = 100;
 console.log(items);
 console.log(students);
 console.log(charge);
+export { };

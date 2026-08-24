@@ -11,3 +11,5 @@ let input: any = 'Hello';
 input = 450;
 
 console.log(district);
+
+export { }

@@ -45,16 +45,18 @@ function add4(num1: number, num2: number): [string, number] {
     return ['total', total];
 }
 
-
-
-
-
-
-
-
-
-
-
-function doubleOrHalf(num: number, isDouble?: boolean): boolean {
-    return false;
+function doubleOrHalf(num: number, isDouble?: boolean): any {
+    return { num, isDouble };
 }
+console.log(doubleOrHalf(45, false));
+function boolfunc(num1: number, num2: number): boolean {
+    const total = num1 + num2;
+
+    return total > 0;
+}
+
+function sum(nums: number[]): number {
+    return nums.reduce((total: number, num: number) => num + total, 0);
+}
+console.log(sum([45, 5, 10]));
+export { }

@@ -4,11 +4,13 @@
 //     }
 //     return name2;
 // }
-const getLargerName = (name1: string, name2: string): string =>{
-    if(name1.length > name2.length){
+const getLargerName = (name1: string, name2: string): string => {
+    if (name1.length > name2.length) {
         return name1;
     }
     return name2;
 }
 
 const biggerName = getLargerName('Alice', 'Bob');
+console.log(biggerName);
+export { }
